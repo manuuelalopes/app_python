@@ -26,5 +26,9 @@ class Servidor(BaseHTTPRequestHandler):
          self.end_headers()
          self.wfile.write(b"POST recebido")
 
+<<<<<<< HEAD
 
 HTTPServer(("0.0.0.0", 8000), Servidor).serve_forever() 
+=======
+ HTTPServer(("0.0.0.0", 8000), Servidor).serve_forever() 
+>>>>>>> b1bfc75aa9a8cb562f4b62a8639056240da89064
